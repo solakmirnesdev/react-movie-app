@@ -12,6 +12,11 @@
   --font-raleway: "Raleway", sans-serif;
 }
 
+li {
+  color: white;
+  font-weight: 600;
+}
+
 body {
   font-family: var(--font-roboto);
   background-color: #212426;

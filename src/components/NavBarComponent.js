@@ -1,7 +1,12 @@
+import { Link } from 'react-router-dom'
+
 export default function NavBarComponent() {
   return (
     <>
-      <h1>This is navbar !!!</h1>
+      <ul>
+        <Link to='/'>Home</Link>
+        <Link to='/about'>About</Link>
+      </ul>
     </>
   )
 }
